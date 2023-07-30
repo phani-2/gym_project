@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> </title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<header>
+ <nav>
+     <div class="main-wrapper">
+	      <ul>
+	            <li><a href="index.html">home</a></li>
+	       </ul>
+		       <div class="nav-login">
+                   <!-- Static content for logged-in users -->
+                   <form action="includes/logout.inc.html" method="POST">
+                       <button type="submit" name="submit">logout</button>
+                   </form>
+                   <!-- Static content for logged-out users -->
+                   <form action="includes/login.inc.html" method="POST">
+                       <input type="text" name="uid" placeholder="username/e-mail">
+                       <input type="password" name="pwd" placeholder="password">
+                       <button type="submit" name="submit">login</button>						
+                   </form>
+                   <a href="signup.html">signup</a>
+		       </div>
+	 </div>
+ </nav>
+</header>
+
+</body>
+</html>
